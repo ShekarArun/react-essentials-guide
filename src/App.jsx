@@ -25,7 +25,7 @@ function Header() {
   );
 }
 
-function CoreConcept({ title, description, image }) {
+function CoreConcept({ title = "React Core Concept", description, image }) {
   return (
     <li>
       <img src={image} alt={title} />
