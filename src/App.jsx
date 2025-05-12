@@ -22,7 +22,7 @@ function App() {
           <ul>
             {
               CORE_CONCEPTS.map(
-                coreConcept => <CoreConcept {...coreConcept} />
+                coreConcept => <CoreConcept key={coreConcept.title} {...coreConcept} />
               )
             }
           </ul>
